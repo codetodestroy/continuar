@@ -47,5 +47,7 @@
 }
 
 .info-result p {
+    max-width: 30ch;
+    font-size: .8rem;
     color: var(--pale-blue);
 }

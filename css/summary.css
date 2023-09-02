@@ -1,0 +1,89 @@
+.box-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 30px;
+}
+
+.box-summary {
+    color: var(--dark-gray-blue);
+}
+
+.box-ability {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.box-ability span {
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.ability {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.ability::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.reaction .ability::before {
+    background-image: url('/assets/images/icon-reaction.svg');
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);
+    color: var(--light-red);
+}
+
+.memory .ability::before {
+    background-image: url('/assets/images/icon-memory.svg');
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.1);
+    color: var(--orangey-yellow);
+}
+
+.verbal .ability::before {
+    background-image: url('/assets/images/icon-verbal.svg');
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.1);
+    color: var(--green-teal);
+}
+
+.visual .ability::before {
+    background-image: url('/assets/images/icon-visual.svg');
+}
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.1);
+    color: var(--cobalt-blue);
+}
+
+.level {
+    color: var(--dark-gray-blue);
+}
+
+.level span {
+    color: gray;
+}
+
+button {
+    padding: 15px;
+    border-radius: 50px;
+    color: var(--white);
+    background-color: var(--dark-gray-blue);
+}

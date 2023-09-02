@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 0;
 
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 18px;
@@ -13,13 +14,12 @@ body {
     height: 100vh;
 
     display: flex;
-    flex-flow: wrap column;
+    flex-direction: column;
 }
 
 main {
     display: flex;
     flex-flow: wrap column;
     justify-content: flex-start;
-    align-items: center;
     flex: 1 0 auto;
 }
